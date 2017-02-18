@@ -56,3 +56,16 @@ p {
   bottom: 1px;
   right: 7px;
 }
+.new{
+   -webkit-transition-duration: 0.4s; /* Safari */
+   transition-duration: 0.4s;
+   color: white;
+   text-decoration: none;
+ }
+ .new a:hover{
+   color: #ff2323;
+ }
+ .new a,visited{
+   color: white;
+   text-decoration: none;
+ }
