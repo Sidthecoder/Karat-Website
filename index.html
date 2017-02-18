@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Karat Website</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<meta name="viewport" content="width=device-width, initial-scale=0.7">
+<link href="https://fonts.googleapis.com/css?family=Iceland|Inconsolata|Open+Sans" rel="stylesheet">
+<!-- Start of Async Drift Code -->
+<script>
+!function() {
+  var t;
+  if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0,
+  t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
+  t.factory = function(e) {
+    return function() {
+      var n;
+      return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
+    };
+  }, t.methods.forEach(function(e) {
+    t[e] = t.factory(e);
+  }), t.load = function(t) {
+    var e, n, o, i;
+    e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"),
+    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js",
+    n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
+  });
+}();
+drift.SNIPPET_VERSION = '0.3.1';
+drift.load('v5wpsddc2uu5');
+</script>
+
+  <link rel='stylesheet prefetch' href='css/karat.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+  <html>
+
+<body>
+  <ul>
+    <li><a class="active" href="#down">Download <i class="fa fa-download"></i></a></li>
+    <li><a href="#doc">Docs <i class="fa fa-th-list"></i></a></li>
+    <li><a href="#about">About <i class="fa fa-question-circle"></i></a></li>
+    <li><a href="#home">Home <i class="fa fa-home"></i></a></li>
+  </ul>
+  <div class="social">
+    <a class="github-button" href="https://github.com/Sidthecoder" data-style="mega" aria-label="Follow @Sidthecoder on GitHub">Follow @Sidthecoder (Founder)</a>
+    <a class="github-button" href="https://github.com/Sidthecoder/Karat" data-icon="octicon-star" data-style="mega" aria-label="Star Sidthecoder/KaratCSS on GitHub">Star Karat Repository on GitHub</a>
+  </div>
+  <section id="home">
+    <h1 class="title">Karat</h1>
+    <h3 class="subtitle">An Actually Minimal CSS Boilerplate</h3>
+  </section>
+  <section id="docs">
+    <div class="container">
+      <p class="i-t" id="about">About</p>
+      <p class="des">Karat is a responsive, minimal CSS Framework. Unlike other frameworks, like Bootstrap and Foundation, Karat gives only the bare essentials. It even better than other "minimal frameworks" that include UI that you never use, and only sit in your &lt;head&gt;
+        tag slowing down your website.
+      </p>
+      <div class="row">
+        <div class="col col-4">
+           <i class="fa fa-balance-scale icons"></i>
+          <p class="show">Minimal</p>
+        </div>
+        <div class="col col-4">
+                <i class="fa fa-tablet icons"></i>
+      <p class="show">Responsive</p>
+        </div>
+        <div class="col col-4">
+                <i class="fa fa-signal icons"></i>
+      <p class="show">Fast</p>
+        </div>
+      </div>
+      <p class="i-t" id="down">Docs</p>
+      <p class="des">Put the code below in your &lt;head&gt; tag</p>
+      <pre><code>Coming Soon</code></pre>
+      <p class="des">NPM Install - Coming Soon</p>
+      <p class="des">CDN - Coming Soon</p>
+      <p class="des">JSDelivr - Coming Soon</p>
+      <p class="i-t" id="doc">Grid System</p>
+      <p class="des">Karat comes with a 12-Column respinsive grid system. Try resizing your page to see how the grid resizes. The grid can be use for making things like Karat's about page.</p>
+
+      <div class="gridSystem">
+        <div class="row">
+          <div class="col col-1">ONE</div>
+          <div class="col col-11">ELEVEN</div>
+        </div>
+        <div class="row">
+          <div class="col col-2">TWO</div>
+          <div class="col col-10">TEN</div>
+        </div>
+        <div class="row">
+          <div class="col col-3">THREE</div>
+          <div class="col col-9">NINE</div>
+        </div>
+        <div class="row">
+          <div class="col col-4">FOUR</div>
+          <div class="col col-8">EIGHT</div>
+        </div>
+        <div class="row">
+          <div class="col col-5">FIVE</div>
+          <div class="col col-7">SEVEN</div>
+        </div>
+        <div class="row">
+          <div class="col col-6">SIX</div>
+          <div class="col col-6">SIX</div>
+        </div>
+       <div class="row">
+          <div class="col col-4">FOUR</div>
+          <div class="col col-4">FOUR</div>
+          <div class="col col-4">FOUR</div>
+        </div>
+         <div class="row">
+          <div class="col col-3">THREE</div>
+          <div class="col col-3">THREE</div>
+          <div class="col col-3">THREE</div>
+          <div class="col col-3">THREE</div>
+        </div>
+      </div>
+
+      <pre><code>
+   &lt;!-- Start a row with a row div --&gt;<br />
+<br />
+   &lt;div class="grid"&gt;<br />
+<br />
+        &lt;!-- Use the class col-x for the 12 columns --&gt;<br />
+<br />
+        &lt;div class="col-6"&gt;six&lt;/div&gt;<br />
+<br />
+        &lt;div class="col-6"&gt;six&lt;/div&gt;<br />
+<br />
+    &lt;/div&gt;
+    </code></pre>
+      <p class="des">You can put more that 2 cols.</p>
+      <p class="i-t">Containers</p>
+      <p class="des">Containers let you add padding to the sides of a website, and make it look better. Karat's container is responsive and gets smaller when the page is smaller. You can also add this class to &lt;body&gt; or other tags.</p>
+      <code>&lt;div class="container"&gt;</code>
+      <p class="des">Large Container: <code>&lt;div class="container-large"&gt;</code></p>
+      <p class="des"><b>With Container:</b></p>
+      <p class="des">Lorem ipsum dolor. Sit amet ac. Et vel eu. Ligula condimentum malesuada. Mattis vitae nec in est quis. Lacinia purus suspendisse felis ducimus placerat. Volutpat massa tellus.</p>
+      <p class="des"><b>With Large Container:</b></p>
+    </div>
+    <p class="des container-large">Lorem ipsum dolor. Sit amet ac. Et vel eu. Ligula condimentum malesuada. Mattis vitae nec in est quis. Lacinia purus suspendisse felis ducimus placerat. Volutpat massa tellus.</p>
+    <p class="des container"><b>Without Container</b></p>
+    <p class="des">Lorem ipsum dolor. Sit amet ac. Et vel eu. Ligula condimentum malesuada. Mattis vitae nec in est quis. Lacinia purus suspendisse felis ducimus placerat. Volutpat massa tellus.</p>
+      <p class="des container-large">Made with ⚡ ♥️ 🥕 by <a href="http://thatsid.ml/" class="madeby">Sid</a>, <a href="http://talonbragg.com/" class="madeby">Talon</a>, & <a href="#" class="madeby">Shreyas</a>.</p>
+  </section>
+</body>
+
+</html>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://buttons.github.io/buttons.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
