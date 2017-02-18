@@ -56,3 +56,9 @@ p {
   bottom: 1px;
   right: 7px;
 }
+::selection{
+  background-color: #a7b6ce;
+}
+::-moz-selection{
+ background-color: #a7b6ce;
+}
